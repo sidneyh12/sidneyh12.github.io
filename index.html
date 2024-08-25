@@ -2,99 +2,86 @@
 <html lang="pt-BR">
 
 <head>
-    <!-- Definindo o conjunto de caracteres para suportar acentos e caracteres especiais -->
+    <!-- Define o conjunto de caracteres para garantir suporte a acentos e caracteres especiais -->
     <meta charset="UTF-8">
-    <!-- Garantindo que o layout seja responsivo em dispositivos móveis -->
+    <!-- Ajusta o layout para ser responsivo em dispositivos móveis -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sidney Gadelha de oliveira</title>
-    <!-- Importando o arquivo CSS para estilizar a página -->
+    <title>Sidney Gadelha de Oliveira</title>
+    <!-- Importa o arquivo CSS para estilização da página -->
     <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
-    <!-- Cabeçalho da página com navegação principal -->
+    <!-- Cabeçalho com o menu de navegação principal -->
     <header>
         <nav>
             <ul>
-                <!-- Links para navegar pelas seções da página -->
-                <li><a href="#sobre-mim">SOBRE MIM</a></li>
-                <li><a href="#formacao">FORMAÇÃO</a></li>
-                <li><a href="#portfolio">PORTFÓLIO</a></li>
-                <li><a href="#contato">CONTATO</a></li>
+                <!-- Links para as seções da página -->
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Seção sobre mim -->
+    <!-- Seção que apresenta informações pessoais -->
     <section id="sobre-mim">
-        <h2 style="color: #42a5f5;">Sobre mim</h2>
-        <h1>Sidney Gadelha de oliveira</h1>
-        <p>Sou formado em Eletromecânica e atualmente estou direcionando minha carreira para a ciência de dados. Minha
-            formação técnica me proporcionou uma base sólida em análise de sistemas e resolução de problemas complexos,
-            habilidades que considero essenciais para a ciência de dados.</p>
+        <h2 style="color: #42a5f5;">Sobre Mim</h2>
+        <h1>Sidney Gadelha de Oliveira</h1>
+        <p>Sou formado em Eletromecânica e atualmente estou migrando para a área de ciência de dados. Minha formação técnica me proporcionou uma sólida base em análise de sistemas e resolução de problemas complexos, habilidades essenciais para a ciência de dados.</p>
     </section>
 
-    <!-- Seção de formação acadêmica -->
+    <!-- Seção com detalhes da formação acadêmica -->
     <section id="formacao">
-        <h2>FORMAÇÃO</h2>
+        <h2>Formação</h2>
         <p><strong class="instituicao">Ciências da Computação</strong><br>
             2020 a 2024<br>
             IFCE Campus Maracanaú</p>
 
         <p><strong class="instituicao">Técnico em Informática em Programação FullStack</strong><br>
             2017 a 2019<br>
-            EEEP José Ivanilton Nocrato – Guaiúba, CE</p>
+            EEEP Raimundo Célio Rodrigues, CE</p>
         <br>
         <br>
         <h2>Idiomas</h2>
-        <p>Português fluente; </p>
-        <p>Inglês Básico; </p><br>
+        <p>Português fluente;</p>
+        <p>Inglês Básico;</p><br>
 
     </section>
 
-    <!-- Seção de portfólio -->
+    <!-- Seção com o portfólio de projetos -->
     <section id="portfolio">
-        <h2>PORTFÓLIO</h2>
-        <p><b>
-
-                Projeto para agência de turismo</p>
-        </b>
-        <p>O projeto consistia em desenvolver um sistema robusto para gerenciar uma agência de turismo de forma
-            abrangente, com diferentes níveis de acesso. Os vendedores teriam acesso para realizar vendas, enquanto os
-            administradores teriam um dashboard completo para controlar as vendas, quantidades de vendas por mês, dia,
-            entre outras informações relevantes.</p>
+        <h2>Portfólio</h2>
+        <p><b>Projeto para Agência de Turismo</b></p>
+        <p>Desenvolvi um sistema abrangente para gerenciar uma agência de turismo, com diferentes níveis de acesso: vendedores podem realizar vendas, enquanto administradores têm acesso a um dashboard completo com informações como vendas diárias e mensais.</p>
         <div class="projetos">
-            <!-- Projetos que já foram realizados -->
+            <!-- Projetos realizados -->
             <div class="projeto">
-                <img src="img1.png" width="500px">
-
+                <img src="img1.png" width="500px" alt="Projeto 1">
             </div>
             <div class="projeto">
-
-               <img src="img2.png" width="500px">
-
+                <img src="img2.png" width="500px" alt="Projeto 2">
             </div>
-
-
         </div>
         <br>
     </section>
 
-    <!-- Seção de contato -->
+    <!-- Seção para informações de contato -->
     <section id="contato">
-        <h2>CONTATO</h2>
+        <h2>Contato</h2>
         <form>
-            <!-- Campo para o nome do usuário -->
+            <!-- Campo para nome do usuário -->
             <div class="input-group">
                 <label for="nome" align="center">Nome</label>
                 <input type="text" id="nome" name="nome" required>
             </div>
-            <!-- Campo para o email do usuário -->
+            <!-- Campo para email do usuário -->
             <div class="input-group">
                 <label for="email" align="center">Email</label>
                 <input type="email" id="email" name="email" required>
             </div>
-            <!-- Campo para a mensagem do usuário -->
+            <!-- Campo para mensagem do usuário -->
             <div class="input-group">
                 <label for="mensagem" align="center">Mensagem</label>
                 <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
