@@ -1,0 +1,213 @@
+/* Importando a fonte Poppins do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Resetando margens e paddings padrão para evitar problemas de layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral para o corpo da página */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+/* Estilo para o cabeçalho da página */
+header {
+    background-color: #a3a3a3;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 2px solid #000;
+}
+
+/* Estilo para o menu de navegação */
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Estilo padrão para as seções */
+section {
+    padding: 2rem 1rem;
+    width: 100%;
+    margin: 0;
+}
+
+/* Estilo específico para a seção "Sobre mim" */
+#sobre-mim {
+    text-align: right; /* Alinha o texto à direita */
+    padding-right: 20%; /* Ajusta o padding à direita */
+    width: 100%;
+    padding-left: 20%; /* Remove o padding à esquerda */
+}
+
+#sobre-mim h1 {
+    font-size: 2rem;
+    color: #000;
+}
+
+#sobre-mim h2 {
+    font-size: 1.2rem;
+    color: #FFD700;
+}
+
+#sobre-mim p {
+    margin-top: 1rem;
+    color: #555;
+    font-size: 1.2rem;
+}
+
+/* Estilo específico para a seção "Formação" */
+#formacao {
+    background-color: #f0f0f0;
+    color: #000000;
+    padding: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+    padding-right: 20%; /* Ajusta o padding à direita */
+    padding-left: 20%; /* Remove o padding à esquerda */
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: right; /* Alinha o texto à direita */
+}
+
+#formacao h2 {
+    color: #000000;
+}
+
+.instituicao {
+    color: #000000;
+}
+
+/* Estilo específico para a seção "Portfólio" */
+#portfolio h2 {
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #000;
+    text-align: center;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.projeto {
+ 
+    padding: 1rem;
+    width: 500px;
+   
+}
+
+.projeto p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+/* Estilo para os links de projetos no portfólio */
+.projeto a {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.projeto a:hover {
+    background-color: #444;
+}
+
+/* estilo do botão Github */
+#github {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    margin: 0 auto; 
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilo específico para a seção "Contato" */
+#contato {
+    padding: 2rem;
+    background-color: #f0f0f0;
+    text-align: center;
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 2rem;
+}
+
+#contato h2 {
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 2rem;
+}
+
+/* Estilo do formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Estilo dos grupos de input no formulário */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.input-group label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.input-group input,
+.input-group textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    justify-items: center;
+    align-items: center;
+}
+
+/* Estilo do botão de envio do formulário */
+button[type="submit"] {
+    padding: 0.75rem;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #444;
+}
